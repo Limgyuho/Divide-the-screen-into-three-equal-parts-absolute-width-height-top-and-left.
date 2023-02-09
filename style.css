@@ -1,0 +1,21 @@
+section > div{
+    
+    width: 33.3333%;
+    height: 100%;
+    position: absolute;
+}
+section>div:nth-child(1){
+    background-color: red;
+    top: 0;
+    left: 0;
+}
+section>div:nth-child(2){
+    background-color: blue;
+    top: 0;
+    left: 33.3333%;
+}
+section>div:nth-child(3){
+    background-color: green;
+    top: 0;
+    right: 0;
+}
